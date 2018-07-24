@@ -26,7 +26,7 @@ public class WebActivity extends AppCompatActivity {
     private void initUi() {
         mWv = (WebView) findViewById(R.id.wv);
         mProgress = (ProgressBar) findViewById(R.id.progress);
-        mWv.loadUrl("https://github.com/GGandYY/SuspensionBall");
+        mWv.loadUrl("https://github.com/GGandYY/QuickTouch");
         WebSettings settings = mWv.getSettings();
         settings.setJavaScriptEnabled(true);
         mWv.setWebViewClient(new WebViewClient() {
