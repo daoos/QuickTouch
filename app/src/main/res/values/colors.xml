@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#29bd68</color>
+    <color name="colorPrimaryDark1">#29bd68</color>
+    <color name="colorAccent1">#63B8FF</color>
+    <color name="background_selector">#BBBBBB</color>
+    <color name="item_menu_background_selector">#b21c251c</color>
+    <color name="menu_background">#b20d110d</color>
+    <!--activity_menu_list-->
+    <color name="activity_menu_list_title_text">#29bd68</color>
+    <color name="activity_menu_list_group_text">#a3a3a3</color>
+    <color name="activity_menu_list_item_text">#404040</color>
+    <color name="activity_menu_list_item_split_line">#e5e5e5</color>
+    <color name="activity_menu_list_group_split_line">#f7f7f7</color>
+
+</resources>

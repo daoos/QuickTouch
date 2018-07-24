@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_menu_list_toolbar_height"
+        android:background="@color/colorPrimary1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_menu_list_title_height"
+                android:background="@color/activity_menu_list_title_text"
+                android:gravity="center"
+                android:text="@string/chose"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/activity_menu_list_title_text_size" />
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@mipmap/backto" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_menu_list_group_text_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/activity_menu_list_group_text_padding_left"
+                android:text="@string/operation"
+                android:textColor="@color/activity_menu_list_group_text"
+                android:textSize="@dimen/activity_menu_list_group_text_size" />
+
+            <TextView
+                android:id="@+id/tv_home"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_home"
+                android:text="@string/home" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_recent"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_recentapp"
+                android:text="@string/recent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_menu_list_group_split_line_height"
+                android:background="@color/activity_menu_list_group_split_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_menu_list_group_text_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/activity_menu_list_item_text_padding_left"
+                android:text="@string/function"
+                android:textColor="@color/activity_menu_list_group_text"
+                android:textSize="@dimen/activity_menu_list_group_text_size"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_bluetooth"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_bluetooth"
+                android:text="@string/bluetooth" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_network"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_network"
+                android:text="@string/data" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_wifi"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_wifi"
+                android:text="@string/wifi" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_rotation"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_rotate"
+                android:text="@string/rotation" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_gps"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_gps"
+                android:text="@string/gps" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_airplane"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_airplane"
+                android:text="@string/flightmode" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_setting"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_setting"
+                android:text="@string/setting" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_slient"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_bell"
+                android:text="@string/silent" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_lock"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_lockscreen"
+                android:text="@string/lock" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_notification"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_notification"
+                android:text="@string/notification" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_display"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_display"
+                android:text="@string/display" />
+            <!--@color/activity_menu_list_item_text-->
+            <!--@color/activity_menu_list_item_text-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_menu_list_group_split_line_height"
+                android:background="@color/activity_menu_list_group_split_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_menu_list_group_text_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/activity_menu_list_item_text_padding_left"
+                android:text="@string/tools"
+                android:textColor="@color/activity_menu_list_group_text"
+                android:textSize="@dimen/activity_menu_list_group_text_size"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_alarm"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_clock"
+                android:text="@string/alarm" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_camera"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_photo"
+                android:text="@string/camera" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_menu_list_group_split_line_height"
+                android:background="@color/activity_menu_list_group_split_line" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_menu_list_group_text_height"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/activity_menu_list_item_text_padding_left"
+                android:text="@string/phone"
+                android:textColor="@color/activity_menu_list_group_text"
+                android:textSize="@dimen/activity_menu_list_group_text_size"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_call"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_phone"
+                android:text="@string/call" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_chat"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_chat"
+                android:text="@string/chat" />
+
+            <TextView style="@style/activity_menu_list_item_split_line" />
+
+            <TextView
+                android:id="@+id/tv_contact"
+                style="@style/activity_menu_list_item"
+                android:drawableLeft="@mipmap/s_maillist"
+                android:text="@string/contact" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/activity_menu_list_group_split_line" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

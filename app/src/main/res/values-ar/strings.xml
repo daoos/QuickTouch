@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">QuickTouch</string>
+    <string name="home">بيت</string>
+    <string name="operation">التشغيل</string>
+    <string name="recent">الإجراءات  الأخيرة</string>
+    <string name="function">وظيفة</string>
+    <string name="data">البيانات</string>
+    <string name="wifi">WiFi</string>
+    <string name="rotation">دوران</string>
+    <string name="gps">الموقع</string>
+    <string name="flightmode">وضع الطيران</string>
+    <string name="setting">إعدادات</string>
+    <string name="silent">وضع الصوت</string>
+    <string name="lock">قفل الشاشة</string>
+    <string name="notification">قائمة الإخطار</string>
+    <string name="display">عرض</string>
+    <string name="sync">متزامن</string>
+    <string name="scrshot">لقطات</string>
+    <string name="tools">أداة</string>
+    <string name="camera">الكاميرا</string>
+    <string name="phone">الهاتف المحمول</string>
+    <string name="call">اتصال</string>
+    <string name="chat">دردشة</string>
+    <string name="contact">جهات الاتصال</string>
+    <string name="more">المزيد</string>
+    <string name="alarm">المنبه</string>
+    <string name="bluetooth">البلوتوث</string>
+    <string name="bell">رنين</string>
+    <string name="vibrate">الاهتزاز</string>
+    <string name="exist">الاختصار  موجود</string>
+    <string name="chose">رجاء الاختيار</string>
+</resources>

@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+def projectName() {
+    return rootDir.name
+}
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+    defaultConfig {
+        applicationId "com.yifu.quicktouch"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        releaseConfig {
+            keyAlias '******'
+            keyPassword '******'
+            storeFile file('******.jks')
+            storePassword '******'
+        }
+    }
+    buildTypes {
+        debug {
+            minifyEnabled true
+            zipAlignEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.releaseConfig
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    print(outputFile)
+                    if (outputFile != null && outputFile.name.endsWith('.apk') && outputFile.name.contains('release')) {
+                        // 输出apk名称为projectName_versionName_versionCode.apk
+                        def fileName = "${projectName()}_v${defaultConfig.versionName}_${defaultConfig.versionCode}.apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">QuickTouch</string>
+    <string name="home">मुख्य अंतरफलक</string>
+    <string name="operation">कार्रवाई</string>
+    <string name="recent">हाल ही में प्रोग्राम</string>
+    <string name="function">समारोह</string>
+    <string name="data">डेटा</string>
+    <string name="wifi">WiFi</string>
+    <string name="rotation">बारी बारी से</string>
+    <string name="gps">स्थान</string>
+    <string name="flightmode">एयरप्लेन मोड</string>
+    <string name="setting">सेट अप करें</string>
+    <string name="silent">ध्वनि मोड</string>
+    <string name="lock">लॉक स्क्रीन</string>
+    <string name="notification">सूचना पट्टी</string>
+    <string name="display">प्रदर्शन</string>
+    <string name="sync">सिंक्रनाइज़ेशन</string>
+    <string name="scrshot">स्क्रीनशॉट</string>
+    <string name="tools">उपकरण</string>
+    <string name="camera">कैमरा</string>
+    <string name="phone">मोबाइल फोन</string>
+    <string name="call">डायल</string>
+    <string name="chat">चैट</string>
+    <string name="contact">संपर्क</string>
+    <string name="more">अधिक</string>
+    <string name="alarm">अलार्म घड़ी</string>
+    <string name="bluetooth">ब्लू टच</string>
+    <string name="bell">बेल</string>
+    <string name="vibrate">कंपन</string>
+    <string name="exist">शॉर्टकट पहले से मौजूद है</string>
+    <string name="chose">कृपया का चयन करें</string>
+</resources>

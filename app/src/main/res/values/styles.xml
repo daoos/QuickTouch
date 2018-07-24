@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="SuspendedballAppTheme.Base" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="toolbarStyle">@style/MyToolbar</item>
+        <item name="colorPrimary">@color/colorPrimary1</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark1</item>
+        <item name="colorAccent">@color/colorAccent1</item>
+    </style>
+
+    <style name="SuspendedballAppTheme" parent="SuspendedballAppTheme.Base"></style>
+
+    <style name="MyToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+    </style>
+
+    <style name="activity_menu_list_group">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/activity_menu_list_group_text_height</item>
+        <item name="android:textSize">@dimen/activity_menu_list_group_text_size</item>
+        <item name="android:paddingLeft">@dimen/activity_menu_list_group_text_padding_left</item>
+        <item name="android:textColor">@color/activity_menu_list_group_text</item>
+    </style>
+
+    <style name="activity_menu_list_item">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:drawableLeft">@mipmap/s_maillist</item>
+        <item name="android:drawablePadding">@dimen/activity_menu_list_item_text_drawable_padding
+        </item>
+        <item name="android:layout_height">@dimen/activity_menu_list_item_text_height</item>
+        <item name="android:textSize">@dimen/activity_menu_list_item_text_size</item>
+        <item name="android:paddingLeft">@dimen/activity_menu_list_item_text_padding_left</item>
+        <item name="android:textColor">@color/activity_menu_list_item_text</item>
+        <item name="android:background">@drawable/background_selector</item>
+    </style>
+
+    <style name="activity_menu_list_item_split_line">
+        <item name="android:layout_marginLeft">
+            @dimen/activity_menu_list_item_split_line_margin_left
+        </item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/activity_menu_list_item_split_line_height</item>
+        <item name="android:background">@color/activity_menu_list_item_split_line</item>
+    </style>
+</resources>

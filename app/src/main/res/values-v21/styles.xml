@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="SuspendedballAppTheme" parent="SuspendedballAppTheme.Base">
+        <item name="android:colorPrimary">@color/colorPrimary1</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark1</item>
+        <item name="android:colorAccent">@color/colorAccent1</item>
+    </style>
+</resources>
